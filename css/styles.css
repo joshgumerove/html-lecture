@@ -1,0 +1,124 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+body {
+  text-align: center;
+  background-color: lightblue;
+  color: #333;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+header {
+  padding: 20px 0;
+}
+
+#navigation-section {
+  background-color: #3c3c3c;
+  color: #fff;
+}
+
+.navigation-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navigation-links a:hover {
+  color: #ffdd00;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.primary {
+  background-color: #0057b7;
+  opacity: 0.5;
+  margin: 50px 20px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.primary:hover {
+  opacity: 1;
+}
+
+.secondary {
+  background-color: #ffdd00;
+  color: #333;
+  padding: 20px;
+  margin: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0.5;
+}
+
+.secondary:hover {
+  opacity: 1;
+}
+
+#about h2 {
+  color: #8d8385;
+  /* font-size: 5em; */
+}
+
+.experience-box li {
+  /* background-color: red; */
+  color: #333;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.experience-box li:hover {
+  color: #0057b7;
+  background-color: #ffdd00;
+}
+
+.flex-box ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #3c3c3c;
+  color: #fff;
+  border-radius: 10px;
+  margin: 50px 20px;
+  padding: 20px;
+}
+
+ul.navigation-links {
+  color: purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+ul.navigation-links a:hover {
+  color: red;
+}
+
+footer {
+  background-color: #3c3c3c;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #ffdd00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ff5722;
+}
