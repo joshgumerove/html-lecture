@@ -34,7 +34,7 @@ ul {
 
 .primary {
   background-color: #0057b7;
-  opacity: 0.9;
+  opacity: 0.5;
   margin: 50px 20px;
   padding: 20px 40px;
   border-radius: 10px;
@@ -53,6 +53,7 @@ ul {
   margin: 50px 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0.5;
 }
 
 .secondary:hover {
@@ -74,6 +75,11 @@ ul {
   padding: 10px;
   margin: 10px 0;
   border-radius: 5px;
+}
+
+.experience-box li:hover {
+  color: #0057b7;
+  background-color: #ffdd00;
 }
 
 .flex-box ul {
